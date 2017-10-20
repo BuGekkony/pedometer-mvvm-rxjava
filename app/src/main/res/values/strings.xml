@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Pedometer</string>
+    <string name="step">Step</string>
+    <string name="default_step_num">0</string>
+    <string name="distance">Distance : </string>
+    <string name="default_distance_string">0</string>
+    <string name="default_calorie_string">0</string>
+    <string name="meter">(m)</string>
+    <string name="calorie">Calorie : </string>
+    <string name="calorie_measure">(Kcal)</string>
+    <string name="date_change_pre">Congratulation! You walked</string>
+    <string name="date_change_post">steps yesterday.</string>
+    <string name="gps_disabled">GPS disabled</string>
+    <string name="gps_enabled">GPS enabled</string>
+</resources>

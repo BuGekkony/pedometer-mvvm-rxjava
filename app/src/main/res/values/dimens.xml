@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_step">140dp</dimen>
+    <dimen name="text_distance_size">20dp</dimen>
+    <dimen name="text_distance_margin_start">5dp</dimen>
+    <dimen name="text_size_measure">15dp</dimen>
+    <dimen name="pedometer_info_margin_start">16dp</dimen>
+    <dimen name="pedometer_info_margin_top">10dp</dimen>
+    <dimen name="activation_button_margin_top">32dp</dimen>
+    <dimen name="record_padding_top">50dp</dimen>
+    <dimen name="record_padding_left">50dp</dimen>
+    <dimen name="bar_chart_height">256dp</dimen>
+    <dimen name="bar_chart_padding">16dp</dimen>
+    <dimen name="bar_chart_bar_width">30dp</dimen>
+    <dimen name="bar_chart_legend_height">40dp</dimen>
+    <dimen name="mini_view_step_text_size">50dp</dimen>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:custom="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="stepMiniView"
+            type="com.steven.pedometer.ui.StepMiniView"/>
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                 android:layout_width="match_parent"
+                 android:layout_height="match_parent">
+        <RelativeLayout
+            android:id="@+id/step_mini_view"
+            android:layout_width="140dp"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:visibility="visible">
+
+           <TextView
+               android:id="@+id/step_text"
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:textColor="@color/colorAccent"
+               android:gravity="center"
+               android:textSize="@dimen/mini_view_step_text_size"
+               android:text="@string/default_step_num"/>
+
+        </RelativeLayout>
+    </FrameLayout>
+</layout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <data>
+        <variable
+            name="recordFragment"
+            type="com.steven.pedometer.ui.RecordFragment"/>
+    </data>
+
+        <RelativeLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:background="@color/colorPrimary">
+
+            <org.eazegraph.lib.charts.BarChart
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/barchart"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/bar_chart_height"
+                android:padding="@dimen/bar_chart_padding"
+                app:egFixedBarWidth="true"
+                app:egBarWidth="@dimen/bar_chart_bar_width"
+                app:egLegendHeight="@dimen/bar_chart_legend_height"/>
+    </RelativeLayout>
+</layout>
